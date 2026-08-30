@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo de Juliane Barbosa Franklin — Chefe do Setor de Administração no HUAP-UFF. Gestão administrativa, contratações públicas e liderança." />
+  <title>Juliane Barbosa Franklin | Gestão administrativa</title>
+  <script>
+    (() => {
+      const saved = localStorage.getItem("cv-theme");
+      const theme = saved === "light" || saved === "dark" ? saved : "light";
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#inicio">JBF</a>
+
+      <nav class="nav" id="site-nav" aria-label="Seções">
+        <a href="#inicio">Início</a>
+        <a href="#competencias">Competências</a>
+        <a href="#carreira">Carreira</a>
+        <a href="#formacao">Formação</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Alternar tema"
+          title="Alternar tema"
+        >
+          <span class="theme-toggle__moon" aria-hidden="true">◐</span>
+          <span class="theme-toggle__sun" aria-hidden="true">◑</span>
+        </button>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Abrir menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">HUAP-UFF · Administração pública</p>
+          <h1 class="hero__name">
+            <span>Juliane</span>
+            <span>Barbosa</span>
+            <span>Franklin</span>
+          </h1>
+          <p class="hero__role">Chefe do Setor de Administração</p>
+          <p class="hero__lead">
+            20 anos de atuação no Hospital Universitário Antônio Pedro.
+            Gestão administrativa, contratações públicas e liderança de equipes
+            com foco em conformidade e transparência.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--solid" href="#carreira">Ver trajetória</a>
+            <a class="btn btn--ghost" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
+
+        <figure class="hero__photo">
+          <img
+            src="foto.jpg"
+            alt="Foto de Juliane Barbosa Franklin"
+            width="800"
+            height="1000"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="logos" aria-label="Instituições">
+      <div class="wrap logos__row">
+        <img class="logo logo--for-light" src="logos/uff.png" alt="UFF" height="32" />
+        <img class="logo logo--for-dark" src="logos/uff-branco.png" alt="UFF" height="32" />
+        <img class="logo logo--for-light" src="logos/hu-brasil.png" alt="HU Brasil" height="32" />
+        <img class="logo logo--for-dark" src="logos/hu-brasil-escuro.png" alt="HU Brasil" height="32" />
+        <img class="logo logo--for-light" src="logos/huap.png" alt="HUAP" height="32" />
+        <img class="logo logo--for-dark" src="logos/huap-claro.png" alt="HUAP" height="32" />
+      </div>
+    </section>
+
+    <section class="section" id="competencias">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="section__index">01</p>
+          <div>
+            <h2 class="section__title">Competências</h2>
+            <p class="section__lead">Áreas em que a experiência se concentra no dia a dia da gestão hospitalar.</p>
+          </div>
+        </header>
+
+        <ul class="skills">
+          <li class="skill">
+            <h3>Gestão administrativa</h3>
+            <p>Condução das rotinas institucionais e alinhamento das atividades do setor.</p>
+          </li>
+          <li class="skill">
+            <h3>Contratações públicas</h3>
+            <p>Processos licitatórios e aquisição de bens e serviços com eficiência.</p>
+          </li>
+          <li class="skill">
+            <h3>Liderança de equipes</h3>
+            <p>Coordenação do Setor de Administração e responsabilidade pela equipe.</p>
+          </li>
+          <li class="skill">
+            <h3>Conformidade e transparência</h3>
+            <p>Atuação alinhada à legalidade e à prestação de contas na administração pública.</p>
+          </li>
+        </ul>
+
+        <aside class="lang">
+          <h3>Idioma</h3>
+          <p><strong>Inglês</strong> — avançado</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="carreira">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="section__index">02</p>
+          <div>
+            <h2 class="section__title">Carreira profissional</h2>
+            <p class="section__lead">Trajetória consolidada na administração pública hospitalar, no HUAP-UFF.</p>
+          </div>
+        </header>
+
+        <div class="timeline">
+          <article class="job">
+            <time datetime="2020">2020 — Atual</time>
+            <div class="job__body">
+              <h3>Gestora — Chefe do Setor de Administração</h3>
+              <p class="job__org">HUAP-UFF</p>
+              <p>Liderança do Setor de Administração, com responsabilidade pela condução das atividades administrativas e pelo alinhamento das rotinas institucionais.</p>
+            </div>
+          </article>
+
+          <article class="job">
+            <time datetime="2009">2009 — Atual</time>
+            <div class="job__body">
+              <h3>Agente de Contratação / Pregoeira</h3>
+              <p class="job__org">HUAP-UFF</p>
+              <p>Atuação em processos licitatórios e contratações públicas, assegurando conformidade legal, transparência e eficiência na aquisição de bens e serviços.</p>
+            </div>
+          </article>
+
+          <article class="job">
+            <time>20 anos</time>
+            <div class="job__body">
+              <h3>Servidora no HUAP-UFF</h3>
+              <p class="job__org">Hospital Universitário Antônio Pedro — UFF</p>
+              <p>Trajetória consolidada na administração pública hospitalar, com experiência contínua em processos administrativos e contratações.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacao">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="section__index">03</p>
+          <div>
+            <h2 class="section__title">Formação</h2>
+            <p class="section__lead">Percurso acadêmico em administração, engenharia e auditoria.</p>
+          </div>
+        </header>
+
+        <ul class="edu-list">
+          <li class="edu">
+            <span class="edu__mark" aria-hidden="true">01</span>
+            <h3>Pós-MBA em Contabilidade e Auditoria</h3>
+          </li>
+          <li class="edu">
+            <span class="edu__mark" aria-hidden="true">02</span>
+            <h3>Graduação em Administração</h3>
+          </li>
+          <li class="edu">
+            <span class="edu__mark" aria-hidden="true">03</span>
+            <h3>Graduação em Engenharia</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="contato">
+      <div class="wrap cta">
+        <header class="section__head">
+          <p class="section__index">04</p>
+          <div>
+            <h2 class="section__title">Vamos conversar</h2>
+            <p class="section__lead">Disponível para contato por telefone ou e-mail institucional.</p>
+          </div>
+        </header>
+
+        <div class="cta__links">
+          <a class="cta__card" href="tel:+5521988060138">
+            <span class="cta__label">Telefone</span>
+            <span class="cta__value">(21) 98806-0138</span>
+          </a>
+          <a class="cta__card" href="mailto:juliane.franklin@hubrasil.gov.br">
+            <span class="cta__label">E-mail</span>
+            <span class="cta__value">juliane.franklin@hubrasil.gov.br</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <p>Juliane Barbosa Franklin</p>
+      <a href="#inicio">Voltar ao início</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
